@@ -1,3 +1,4 @@
+include ':lib-domain'
 include ':lib-base'
 include ':app'
 rootProject.name = "Bookkeeping"

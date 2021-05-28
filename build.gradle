@@ -3,6 +3,13 @@ buildscript {
     ext {
         lifecycleVersion = "2.3.0"
         navigationVersion = "2.3.4"
+        //android开发版本配置
+        android = [
+                compileSdkVersion: 30,
+                buildToolsVersion: "30.0.3",
+                minSdkVersion    : 23,
+                targetSdkVersion : 30
+        ]
     }
     repositories {
         google()
